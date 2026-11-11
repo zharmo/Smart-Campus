@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Secrets (database password, JWT secret)
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Leftover test file
+*.whl
